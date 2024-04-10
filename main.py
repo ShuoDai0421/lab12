@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 def load_data():
-    data = pd.read_csv(r"C:\Users\shuod\Downloads\Lab12\Lab12\car_data.csv") 
+    data = pd.read_csv('car_data.csv') 
     return data
 
 data = load_data()
